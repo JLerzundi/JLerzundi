@@ -1,0 +1,270 @@
+/* ISLAS FLOTANTES */
+/* :root { */
+/*   --border-radius: 15px; */
+/*   --spacing-vertical: 12px;    *//* separación general arriba/abajo */
+/*   --spacing-horizontal: 8px;   *//* separación lados */
+/*   --statusbar-height: 22px;    *//* alto real de la status bar */
+/*   --statusbar-gap: 20px;       */ /* espacio deseado entre tarjetas y status bar */
+/*   --spacing-color: #000001; */
+/* } */
+
+/* Fondo base */
+/* .monaco-workbench {
+  background-color: var(--spacing-color) !important;
+} */
+
+/* ===== Sidebar y auxiliary bar ===== */
+/* .monaco-workbench .part.sidebar,
+.monaco-workbench .part.auxiliarybar {
+  border-radius: var(--border-radius) !important;
+  margin-top: var(--spacing-vertical) !important;
+  margin-left: calc(var(--spacing-horizontal) * 2) !important;
+  margin-right: calc(var(--spacing-horizontal) * 2) !important;
+
+  height: calc(100% - var(--spacing-vertical) * 2 - var(--statusbar-height) + var(--statusbar-gap)) !important;
+}  */
+
+/* ===== Editor ===== */
+/* .monaco-workbench .part.editor {
+  --editor-width: calc(100% - var(--spacing-horizontal) * 4);
+  --editor-height: calc(100% - var(--spacing-vertical) * 2 - var(--statusbar-height) + var(--statusbar-gap));
+
+  width: var(--editor-width);
+  height: var(--editor-height);
+
+  margin-top: var(--spacing-vertical) !important;
+  margin-bottom: var(--spacing-vertical) !important;
+  margin-left: calc(var(--spacing-horizontal) * 2) !important;
+  margin-right: calc(var(--spacing-horizontal) * 2) !important;
+
+  border-radius: var(--border-radius) !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+} */
+
+/* ===== Paneles ===== */
+/* .monaco-workbench .part.panel {
+  border-radius: var(--border-radius) !important;
+  margin-top: var(--spacing-vertical) !important;
+  margin-bottom: var(--spacing-vertical) !important;
+  margin-left: calc(var(--spacing-horizontal) * 2) !important;
+  margin-right: calc(var(--spacing-horizontal) * 2) !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+
+  height: calc(100% - var(--spacing-vertical) * 2 - var(--statusbar-height) + var(--statusbar-gap)) !important;
+} */
+
+
+
+
+
+
+
+/* ======================================================= */
+
+/* Fondo del Editor */
+ /* .monaco-editor .monaco-editor-background {
+  background-color: rgba(255, 0, 191, 0.2) !important;
+}  */
+
+/* Project title's style at the top. */
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Project Title */
+.window-title {
+    font-family: 'Departure Mono' !important;
+    font-size: 18px !important;
+}
+.titlebar-container{
+    /* background-color: rgb(19, 51, 94); */
+    /* background-color: #1A232E; Azul muy oscuro */
+    background-color: rgb(0, 26, 255); /* Azul muy oscuro */
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, transparent 15%, transparent 85%, rgba(0, 0, 0, 0.05) 100%), 
+                    radial-gradient(ellipse at center, rgba(255, 255, 255, 0.08) 0%, transparent 70%);*/
+  /* box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3); Sombra exterior suave */
+  color: white;
+  text-shadow: 
+    2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.titlebar-left {
+    justify-content: flex-start !important;
+    flex-grow: 0 !important;
+    width: auto !important;
+}
+
+/* Contenedor padre del monaco-editor */
+/* .monaco-workbench {
+  background-color: #d400ffff; 
+} */
+
+.monaco-workbench .part.editor{
+  margin-bottom: 400px !important; 
+}
+
+/* Status bar */
+/* .statusbar { */
+
+/*   background-color: rgba(0,0,1,1) !important;  */
+/* font-family: Departure Mono;
+  background-color: rgba(14,14,14,1) !important;  */
+/* } */
+
+.monaco-workbench .part.statusbar{
+  background-color: rgba(14,14,14,1) !important;
+  font-family: Departure Mono;
+  font-size: 15px;
+}
+
+/* Open Remote Window Button */
+/* Cambiar el fondo del botón "Open Remote Window" */
+[id="status.host"] {
+  background-color: rgb(0, 26, 255) !important;
+}
+#status\.host .codicon-remote {
+  font-size: 15;
+  color: #ffffff !important;
+}
+/* Todo el editor */
+/* /.monaco-editor {
+  background-color: #1e1e1e !important;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  margin: 8px;
+  overflow: hidden;
+}  */
+
+
+/* Gutter */
+/* .monaco-editor .margin {
+  background-color: #1e1e1e !important;
+
+} */
+/* Código fuente */
+.view-lines {
+  /* background-color: #1e1e1e !important;
+ */
+    /* background-color: blueviolet; */
+  text-shadow: 
+    2px 2px 0px rgba(0, 0, 0, 0.6);
+  margin-bottom: 200px;
+
+  }
+
+
+/* Search Label */
+.search-label {
+    font-family: 'CozetteVector' !important;
+    font-size: 14px !important;
+    color: #fff;
+    display: block;
+}
+
+/* Search icon */
+.search-icon {
+    display: none !important;
+}
+
+.codicon-search::before {
+    display: none !important;
+}
+
+.codicon-arrow-right,
+.codicon-arrow-left {
+    display: none !important;
+}
+
+.titlebar-right>* {
+    display: none !important;
+}
+
+.command-center-center {
+    width: auto !important;
+}
+
+/* Command palette text input */
+/* Barra de búsqueda de comandos */
+.quick-input-filter .monaco-inputbox {
+    /* border-radius: 12px !important; */
+    /* border-radius: 5px !important; */
+    /* padding: 8px !important; */
+    padding: 4px !important;
+    border: none !important;
+    background-color: rgba(34, 34, 34,40) !important;
+    font-family: "Geist Mono Light" !important;
+    font-size: 30px !important;
+    margin-bottom: 10px !important;
+}
+.quick-input-box .monaco-findInput .monaco-inputbox.idle .ibwrapper .input {
+  color: rgb(245, 87, 14) !important;
+}
+
+#command-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .15);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+}
+
+/* Toda la caja de la lista de comandos + Barra de búsqueda de comandos*/
+.quick-input-widget {
+    transform: translateY(-50%) !important;
+    top: 50% !important;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
+    /* padding: 10px 5px 18px 5px !important; */
+    padding: 4px 10px 0px 10px !important;
+    /* background-color: transparent !important; */
+    background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
+    /* border-radius: 20px !important; */
+    /* backdrop-filter: blur(1px) !important; */
+}
+
+/* Lista de comandos*/
+.quick-input-list {
+    /* padding: 0px 5px 0px 5px !important; */
+    padding: 0px 5px 4px 5px !important;
+    background-color: rgba(34, 34, 34,40) !important;
+    font-family: 'Geist Mono Light' !important;
+    font-size: 16px !important;
+    border-right: none !important;
+    /* color: #ff1e56; */
+    color: #55ffb8;
+}
+
+/* Remove background for lists */
+.monaco-list-rows {
+    background: transparent !important;
+}
+
+/* .monaco-list .monaco-scrollable-element {
+
+} */
+
+/* Directorio del archivo debajo del título del proyecto */
+.monaco-breadcrumbs {
+    font-family: 'Departure Mono' !important;
+    font-size: 14px;
+}
+
+/* === File Explorer Basic Style === */
+
+/* Background color of the file explorer (the sidebar list area) */
+.explorer-viewlet .monaco-list {
+  background-color: #202020ff !important;
+}
+
+/* File and folder name color */
+.explorer-viewlet .monaco-list-row .label-name {
+  /* color: #61dafb !important;  */
+  font-family: "Jetbrains Mono";
+  font-size: large;
+  text-shadow: 
+    2px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+ 

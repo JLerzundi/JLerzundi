@@ -1,0 +1,498 @@
+{
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.copilotHover": "disabled",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+    "C_Cpp.vcFormat.indent.braces": true,
+    "[cpp]": {
+        "editor.semanticHighlighting.enabled": true,
+        "editor.suggest.insertMode": "replace",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "[java]": {
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "[latex]": {
+        "editor.fontFamily": "Cartograph CF",
+        "editor.fontWeight": "300"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[ruby]": {
+        "editor.formatOnType": true, // Enable formatting while typing,
+        "editor.insertSpaces": true, // Use spaces and not tabs for indentation
+        "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
+        "editor.tabSize": 2 // Use 2 spaces for indentation
+    },
+    "breadcrumbs.enabled": false,
+    "cSpell.enabled": false,
+    "chat.agent.enabled": false,
+    "chat.agent.maxRequests": 0,
+    "chat.commandCenter.enabled": false,
+    "chat.disableAIFeatures": true,
+    "chat.notifyWindowOnConfirmation": false,
+    "cucumberautocomplete.formatConfOverride": {
+        "Característica": 0,
+        "Cuando": "relativeUp",
+        "Dada": 2,
+        "Dado": 2,
+        "Ejemplos": 2,
+        "Entonces": "relativeUp",
+        "Escenario": 1,
+        "Esquema del escenario": 1,
+        "Y": "relativeUp"
+    },
+    "docker.lsp.telemetry": "off",
+    "editor.cursorBlinking": "solid",
+    // "editor.fontFamily": "CozetteVector",
+    "editor.fontFamily": "Departure Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.fontVariations": false,
+    // Espacio del gutter, gutter icons
+    "editor.glyphMargin": false,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.letterSpacing": -1,
+    "editor.lineHeight": 0.95,
+    "editor.lineNumbers": "off",
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.parameterHints.enabled": true,
+    // Flechas para colapsar el código
+    "editor.showFoldingControls": "never",
+    "editor.stickyScroll.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            // Ruby
+            {
+                "scope": [
+                    "comment.line.keyword.yard.ruby",
+                    "comment.line.number-sign.ruby",
+                    "comment.line.keyword.punctuation.yard.ruby",
+                    "comment.line.punctuation.yard.ruby",
+                    "comment.line.type.yard.ruby",
+                    "punctuation.definition.comment.ruby"
+                ],
+                "settings": {
+                    "foreground": "#ffffff41"
+                }
+            },
+            {
+                "scope": [
+                    "meta.embedded.line.ruby"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#f700ff"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.constant.ruby"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold",
+                    "foreground": "#ff00c8"
+                }
+            },
+            {
+                "scope": [
+                    "support.class.ruby"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold",
+                    "foreground": "#A95EFF"
+                }
+            }
+            // Python
+            ,
+            {
+                "scope": [
+                    "source.python comment",
+                    "source.python punctuation.definition.comment",
+                    "source.python string.quoted.docstring.multi"
+                ],
+                "settings": {
+                    "foreground": "#4faf37"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.language.gherkin.feature"
+                ],
+                "settings": {
+                    "foreground": "#fbff00"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.language.gherkin.feature.step"
+                ],
+                "settings": {
+                    "foreground": "#1eff00"
+                }
+            },
+            {
+                "scope": [
+                    "string.language.gherkin.feature.title",
+                    "string.language.gherkin.scenario.title.title"
+                ],
+                "settings": {
+                    "foreground": "#ff9215"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.java"
+                ],
+                "settings": {
+                    "foreground": "#ff0000"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.other.import.java",
+                    "keyword.other.package.java"
+                ],
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#ff00dd"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type.class.java"
+                ],
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#cc00ff"
+                }
+            },
+            {
+                "scope": [
+                    "meta.class.body.java"
+                ],
+                "settings": {
+                    "foreground": "#28A9FF"
+                }
+            },
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.other.special-method.dockerfile"
+                ],
+                "settings": {
+                    "foreground": "#a200ff"
+                }
+            },
+            {
+                "scope": [
+                    "source.dockerfile"
+                ],
+                "settings": {
+                    "foreground": "#8883ca"
+                }
+            },
+            {
+                "scope": [
+                    "comment.line.number-sign.dockerfile"
+                ],
+                "settings": {
+                    "foreground": "#00ff88"
+                }
+            },
+            // Html (dentro de Markdown)
+            {
+                "scope": [
+                    "meta.attribute.src.html"
+                ],
+                "settings": {
+                    "fontStyle": "italic underline"
+                }
+            },
+            {
+                "scope": [
+                    "string.quoted.double.html"
+                ],
+                "settings": {
+                    "foreground": "#fd1eebfd"
+                }
+            },
+            // Latex (.tex file)
+            {
+                "scope": [
+                    "meta.function",
+                    "text.tex.latex"
+                ],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [
+                    "support.class.math.block.environment.latex"
+                ],
+                "settings": {
+                    "foreground": "#1ca149"
+                }
+            }
+        ]
+    },
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "files.associations": {
+        "*.rb": "ruby"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": false,
+        "**/.hg": true,
+        "**/.ruby-lsp": false,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true
+    },
+    "indentRainbow.colors": [
+        "rgba(255, 255, 0, 0.5)",
+        "rgba(0, 255, 0, 0.5)",
+        "rgba(255, 0, 255, 0.5)",
+        "rgba(0, 255, 255, 0.5)"
+    ],
+    "indentRainbow.includedLanguages": [
+        "feature",
+        "python"
+    ],
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 2,
+    "java.inlayHints.parameterNames.enabled": "all",
+    "java.jdt.ls.java.home": "c:\\Archivos de Programa\\Java\\jdk-21",
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.suggest.completeFunctionCalls": true,
+    "julia.enableTelemetry": false,
+    "latex-workshop.formatting.latex": "latexindent",
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.outDir": "%DIR%/out_dir",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdfLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "latexmk"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "xelatex",
+            "env": {},
+            "name": "xelatex"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "pdflatex",
+            "env": {},
+            "name": "pdflatex"
+        },
+        {
+            "args": [
+                "%DOCFILE%"
+            ],
+            "command": "bibtex",
+            "env": {},
+            "name": "bibtex"
+        }
+    ],
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.view.outline.sync.viewer": true,
+    "latex-workshop.view.pdf.color.dark.backgroundColor": "#809080",
+    "latex-workshop.view.pdf.color.dark.pageBorderColor": "#809080",
+    "latex-workshop.view.pdf.color.light.backgroundColor": "#809080",
+    "latex-workshop.view.pdf.color.light.pageBorderColor": "#809080",
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.view.pdf.invert": 0.9,
+    "latex-workshop.view.pdf.invertMode.enabled": "compat",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "markdown-preview-enhanced.breakOnSingleNewLine": true,
+    "markdown-preview-enhanced.liveUpdate": true,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-github-styles.colorTheme": "dark",
+    "markdown-preview-github-styles.lightTheme": "dark",
+    "markdown.extension.toc.updateOnSave": false,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "maven.terminal.useJavaHome": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.venvPath": "${workspaceFolder}",
+    "redhat.telemetry.enabled": false,
+    "rubyLsp.enableExperimentalFeatures": false,
+    "rubyLsp.enabledFeatures": {
+        "codeActions": true,
+        "codeLens": true,
+        "completion": true,
+        "definition": true,
+        "diagnostics": true,
+        "documentHighlights": true,
+        "documentLink": true,
+        "documentSymbols": true,
+        "foldingRanges": true,
+        "formatting": true,
+        "hover": true,
+        "inlayHint": true,
+        "onTypeFormatting": true,
+        "selectionRanges": true,
+        "semanticHighlighting": true,
+        "signatureHelp": true,
+        "typeHierarchy": true,
+        "workspaceSymbol": true
+    },
+    "rubyLsp.rubyExecutablePath": "c:\\Ruby34-x64\\bin\\ruby.exe",
+    "solargraph.bundlerPath": "C:\\Ruby34-x64\\bin\\bundler.bat",
+    "solargraph.completion": true,
+    "solargraph.diagnostics": true,
+    "solargraph.formatting": true,
+    "solargraph.hover": true,
+    "solargraph.symbols": true,
+    "solargraph.transport": "stdio",
+    "solargraph.useBundler": true,
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "Departure Mono",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "args": [],
+            "icon": "terminal-cmd",
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ]
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "PowerShell": {
+            "icon": "terminal-powershell",
+            "source": "PowerShell"
+        },
+        "Ubuntu (WSL)": {
+            "args": [
+                "-d",
+                "Ubuntu"
+            ],
+            "path": "C:\\Windows\\System32\\bash.exe"
+        }
+    },
+    "testing.showAllMessages": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "vscode-erb-beautify.keepBlankLines": 1,
+    "vscode-erb-beautify.tab": true,
+    // Custom Loader
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/Lerzundi/custom-vscode.css"
+    ],
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.commandCenter": false,
+    // "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}"
+    "window.title": "${dirty}${activeEditorShort}",
+    "window.zoomPerWindow": false,
+    "workbench.colorCustomizations": {
+        "[Panda Syntax]": {
+            "editorBracketPairGuide.activeBackground1": "#FFB86C",
+            "editorBracketPairGuide.activeBackground2": "#FF75B5",
+            "editorBracketPairGuide.activeBackground3": "#45A9F9",
+            "editorBracketPairGuide.activeBackground4": "#B084EB",
+            "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+            "editorBracketPairGuide.activeBackground6": "#19f9d8",
+            "editorBracketPairGuide.background1": "#FFB86C",
+            "editorBracketPairGuide.background2": "#FF75B5",
+            "editorBracketPairGuide.background3": "#45A9F9",
+            "editorBracketPairGuide.background4": "#B084EB",
+            "editorBracketPairGuide.background5": "#E6E6E6",
+            "editorBracketPairGuide.background6": "#19f9d8"
+        },
+        "tree.indentGuidesStroke": "#dbff11"
+    },
+    "workbench.colorTheme": "AMOLED Black Shiny",
+    "workbench.editor.showTabs": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 16
+}
